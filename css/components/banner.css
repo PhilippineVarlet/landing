@@ -1,6 +1,5 @@
 .banner {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.192)),
+  background-image: linear-gradient(rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.192)),
     url('../../images/background_australie.jpg');
   background-size: cover;
   background-position: center;
@@ -9,25 +8,39 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  text-align: center; /* Center align text */
+  text-align: center;
 }
 
 .banner h1 {
-  padding-top: 2em; /* Add some space at the top */
-  color: #ffffff; /* Travel-themed blue for heading text */
-  font-size: 90px; /* Slightly smaller font size */
-  font-weight: bold; /* Make the text bold */
-  align-self: flex-start; /* Align h1 to the top */
+  padding-top: 2em;
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: bold;
+  align-self: flex-start;
 }
 
 .banner h2 {
-  background-color: rgba(255, 255, 255, 0); /* Semi-transparent white background */
+  background-color: rgba(255, 255, 255, 0);
   margin-top: 2em;
   margin-bottom: 2em;
-  color: #ffffff; /* Travel-themed blue for subheading text */
-  font-size: 36px; /* Slightly smaller font size */
+  color: #ffffff;
+  font-size: 36px;
   font-weight: lighter;
-  opacity: 1; /* Full opacity for better readability */
-  padding: 10px; /* Add padding for better spacing */
-  border-radius: 5px; /* Add a slight border-radius for style */
+  opacity: 1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner h2 {
+    font-size: 26px;
+  }
 }
