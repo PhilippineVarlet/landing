@@ -1,0 +1,20 @@
+/* button.css */
+
+.btn-blue {
+    text-align: center;
+    position: relative;
+    background-color: #007acc; /* Travel-themed blue background */
+    color: white;
+    display: inline-block;
+    padding: 15px 30px; /* Increase the padding to make the button bigger */
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 5px;
+    margin-bottom: 1em;
+    transition: background-color 0.3s ease; /* Add a smooth transition for the background color */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+.btn-blue:hover {
+    background-color: rgba(0, 0, 0, 0.575); /* Change the background color to black on hover */
+    color: white; /* Change the text color to white on hover for better contrast */
+}
